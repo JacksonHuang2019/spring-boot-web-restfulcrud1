@@ -76,7 +76,7 @@ public class EmployeeController {
     public String deleteEmployee(@PathVariable("id") Integer id) {
         employeeDao.delete(id);
 
-        return "emp/emps";
+        return "redirect:/emps";
     }
 
 
