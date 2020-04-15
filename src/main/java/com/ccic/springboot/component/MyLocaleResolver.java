@@ -1,6 +1,7 @@
 package com.ccic.springboot.component;
 
 
+
 import org.springframework.util.StringUtils;
 import org.springframework.web.servlet.LocaleResolver;
 
@@ -9,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.Locale;
 
 // 在链接上携带语言信息
-public class MyLocaleResolver implements LocaleResolver{
+public class MyLocaleResolver implements LocaleResolver {
     @Override
     public Locale resolveLocale(HttpServletRequest httpServletRequest) {
 
